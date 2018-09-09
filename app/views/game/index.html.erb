@@ -1,0 +1,26 @@
+<!-- Header -->
+<div class="text-center">
+  <h1 class="text-uppercase mb-5">
+    Choose your game
+  </h1>
+  <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Player vs Bot</h4>
+        </div>
+        <div class="card-body">
+          <%= image_tag "pl-vs-ai.jpg", class: "game-mode mb-4" %>
+          <a class="btn btn-lg btn-block btn-primary" href="<%= play_path %>">Play</a>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Bot vs Bot</h4>
+        </div>
+        <div class="card-body">
+          <%= image_tag "ai-vs-ai.jpg", class: "game-mode mb-4" %>
+          <a class="btn btn-lg btn-block btn-primary" href="<%= watch_path %>">Watch</a>
+        </div>
+      </div>
+    </div>
+</div>
